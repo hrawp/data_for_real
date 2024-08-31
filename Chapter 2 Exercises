@@ -6,3 +6,19 @@ if number1 % 2 == 0:
     print(number1, 'is even')
 else:
     print(number1, 'is odd')
+
+""" determining whether a number is a multiple of another
+2.7"""
+
+number1 = int (1025)
+number2 = int (3)
+
+if number1 % 4 == 0:
+    print(number1, 'is a multiple of 4')
+else: 
+    print(number1, 'is not a multiple of 4')
+
+if  10 % number2 == 0:
+    print(number2, 'is a multiple of 10')
+else: 
+    print(number2, 'is not a multiple of 10')
