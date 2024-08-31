@@ -1,0 +1,8 @@
+""" determining whether a number is even or odd"""
+
+number1 = int(input('Enter first integer: '))
+
+if number1 % 2 == 0:
+    print(number1, 'is even')
+else:
+    print(number1, 'is odd')
