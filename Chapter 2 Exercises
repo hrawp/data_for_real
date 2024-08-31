@@ -55,3 +55,15 @@ print(x,"\t",y,"\t",z)
 print(ord('B'),"\t", ord('C'), "\t",ord('D'), "\t",ord('b'))
 print(ord('c'), "\t",ord('d'), "\t",ord('0'), "\t",ord('1'))
 print(ord('2'), "\t",ord('$'), "\t",ord('*'), "\t",ord('+'))
+
+"""Arithmetic 2.10"""
+
+number1 = int(input('Enter first integer: '))
+number2 = int(input('Enter second integer: '))
+number3 = int(input('Enter third integer: '))
+
+print("The sum of the numbers are:", number1 + number2 + number3)
+print("The average of the numbers are:", round((number1 + number2 + number3) / 3, 2))
+print("The product of the numbers are:", (number1 * number2 * number3))
+print("The smallest of the numbers are:", min(number1, number2, number3))
+print("The largest of the numbers are:", max(number1, number2, number3))
