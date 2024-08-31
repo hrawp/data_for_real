@@ -48,3 +48,10 @@ x = x + 1
 y = x * 2
 z = x ** 3
 print(x,"\t",y,"\t",z)
+
+""" integer value of a charceter
+2.9"""
+
+print(ord('B'),"\t", ord('C'), "\t",ord('D'), "\t",ord('b'))
+print(ord('c'), "\t",ord('d'), "\t",ord('0'), "\t",ord('1'))
+print(ord('2'), "\t",ord('$'), "\t",ord('*'), "\t",ord('+'))
