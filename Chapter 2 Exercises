@@ -22,3 +22,29 @@ if  10 % number2 == 0:
     print(number2, 'is a multiple of 10')
 else: 
     print(number2, 'is not a multiple of 10')
+    
+""" finding exponents 2 and 3
+2.8"""
+
+print('number\t square\t cube')
+x = 1
+y = x ** 2
+z = x ** 3
+
+print(x,"\t",y,"\t",z)
+x = x + 1
+y = x * 2
+z = x ** 3
+print(x,"\t",y,"\t",z)
+x = x + 1
+y = x * 2
+z = x ** 3
+print(x,"\t",y,"\t",z)
+x = x + 1
+y = x * 2
+z = x ** 3
+print(x,"\t",y,"\t",z)
+x = x + 1
+y = x * 2
+z = x ** 3
+print(x,"\t",y,"\t",z)
